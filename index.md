@@ -1,3 +1,11 @@
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 ## Why this SaaS guide?
 
 As the world moves to a more agile way of working, SaaS are becoming more important to offload part of what is not your core focus.
@@ -24,12 +32,3 @@ We identify the following categories:
 - Best SaaS for collaboration
 - Best SaaS to enable payment
 - Best SaaS for customer feedback, improvement, roadmap
-
-Here are our live SaaS comparison guide:
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
