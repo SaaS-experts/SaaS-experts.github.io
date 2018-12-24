@@ -1,37 +1,48 @@
-## Welcome to SaaS Experts
+## Why this SaaS guide?
 
-You can use the [editor on GitHub](https://github.com/SaaS-experts/SaaS-experts.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+As the world moves to a more agile way of working, SaaS are becoming more important to offload part of what is not your core focus.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+SaaS meaning "Software as a service" is a model in which a provider hosts the software application and makes it available to users over the Internet. Think Salesforce, Dropbox, Office 365, Docusign, Confluence, Mailchimp, Tableau, Slack, Shopify ...
 
-### Markdown
+SaaS removes the need for organizations to install and run applications on their own computers or in their own data centers. Main benefits of SaaS include:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Flexible payments
+	- Rather than purchasing software to install, or additional hardware to support it, customers subscribe or 'rent' a SaaS offering. It enables customers to terminate a SaaS at any time to stop those recurring costs.
 
-```markdown
-Syntax highlighted code block
+- Scalable usage
+	- Cloud services like SaaS offer high scalability, which gives customers the option to access more, or fewer, services or features on-demand.
 
-# Header 1
-## Header 2
-### Header 3
+- Automatic and transparent updates
+	- Rather than having to do the update themselves, the provider will automatically perform updates.
 
-- Bulleted
-- List
+- Worldwide access
+	- As SaaS are delivered over the Internet, users can access them from any Internet-enabled device and location.
 
-1. Numbered
-2. List
+A new trend is that now even old guard software firms are engaging in impressive reinventions as SaaS providers.
 
-**Bold** and _Italic_ and `Code` text
+We have thus written this guide to help people researching SaaS products for specific needs.
 
-[Link](url) and ![Image](src)
-```
+We identify the following categories:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Best SaaS to help ensure great customer service
+Best SaaS for web designers
+Best SaaS for providing your users with great documentation
+Best SaaS to manage your subscriptions
+Best SaaS to manage licensing
+Best SaaS for your analytics
+Best SaaS to track NPS scores
+Best SaaS for product management
+Best SaaS for collaboration
+Best SaaS to enable payment
+Best SaaS for customer feedback, improvement, roadmap
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SaaS-experts/SaaS-experts.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
