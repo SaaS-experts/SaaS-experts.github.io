@@ -5,14 +5,10 @@ As the world moves to a more agile way of working, SaaS are becoming more import
 SaaS - meaning "Software as a service" - is a model in which a provider hosts the software application and makes it available to users over the Internet. Think Salesforce, Dropbox, Office 365, Docusign, Confluence, Mailchimp, Tableau, Slack, Shopify ... SaaS removes the need for organizations to install and run applications on their own computers or in their own data centers. 
 
 Main benefits of SaaS include:
-- Flexible payments
-	- Rather than purchasing software to install, or additional hardware to support it, customers subscribe or 'rent' a SaaS offering. It enables customers to terminate a SaaS at any time to stop those recurring costs.
-- Scalable usage
-	- Cloud services like SaaS offer high scalability, which gives customers the option to access more, or fewer, services or features on-demand.
-- Automatic and transparent updates
-	- Rather than having to do the update themselves, the provider will automatically perform updates.
-- Worldwide access
-	- As SaaS are delivered over the Internet, users can access them from any Internet-enabled device and location.
+- Flexible payments (i.e. rather than purchasing software to install, or additional hardware to support it, customers subscribe or 'rent' a SaaS offering. It enables customers to terminate a SaaS at any time to stop those recurring costs.)
+- Scalable usage (cloud services like SaaS offer high scalability, which gives customers the option to access more, or fewer, services or features on-demand)
+- Automatic and transparent updates (rather than having to do the update themselves, the provider will automatically perform updates)
+- Worldwide access (as SaaS are delivered over the Internet, they are accesible from any Internet-enabled device and location)
 
 We have thus written this guide to help people researching SaaS products for specific needs as even old guard software firms are engaging in reinventions as SaaS providers.
 
@@ -29,6 +25,7 @@ We identify the following categories:
 - Best SaaS to enable payment
 - Best SaaS for customer feedback, improvement, roadmap
 
+Here are our live SaaS comparison guide:
 <ul>
   {% for post in site.posts %}
     <li>
