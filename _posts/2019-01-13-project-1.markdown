@@ -2,6 +2,7 @@
 layout: default
 title: Best SaaS for providing your users with great documentation
 date: 2019-07-15
+permalink: /documentation-saas/
 ---
 
 
